@@ -1,2 +1,2 @@
 # smp
-smp-iitb-editing
+smp-iitb
