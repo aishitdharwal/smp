@@ -56,7 +56,7 @@
   </head>
   <body id="page-top" class="index">
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top" style="width: 100vw;">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
@@ -83,7 +83,23 @@
               </li> -->
             <li>
               <div class="dropdown">
-                <a class="btn btn-primary page-scroll dropdown-toggle" href="aboutus.html" type="button" data-hover="dropdown" data-animations="fadeIn">About Us</button></a>
+                <a class="btn btn-primary page-scroll" href="aboutus.html" type="button" data-animations="fadeIn">About Us</button></a>
+              </div>
+            </li>
+            <li>
+              <div class="dropdown">
+                <a class="btn btn-primary page-scroll dropdown-toggle" type="button" href="General_info.html" data-hover="dropdown" data-animations="fadeIn">General Information
+                <span class="caret"></span></button></a>
+                <ul class="dropdown-menu">
+                  <li><a href="General_info.html#introduction" class="page-scroll">INTRODUCTION</a></li>
+                  <!-- <li><a href="General_info.html#important_dates" class="page-scroll">IMPORTANT DATES</a></li> -->
+                  <!-- <li><a href="General_info.html#implinks" class="page-scroll">IMPORTANT LINKS</a></li> -->
+                  <li><a href="General_info.html#things-to-bring" class="page-scroll">WHAT TO BRING</a></li>
+                  <li><a href="General_info.html#To-do" class="page-scroll">TO-DO LIST</a></li>
+                  <li><a href="General_info.html#scholarship" class="page-scroll">SCHOLARSHIP</a></li>
+                  <li><a href="General_info.html#English-parents-letter" class="page-scroll">LETTER TO PARENTS</a></li>
+                  <li><a href="General_info.html#Hindi-parents-letter" class="page-scroll">अभिभावक को पत्र</a></li>
+                </ul>
               </div>
             </li>
             <li>
@@ -103,22 +119,7 @@
                 </ul>
               </div>
             </li>
-            <li>
-              <div class="dropdown">
-                <a class="btn btn-primary page-scroll dropdown-toggle" type="button" href="General_info.html" data-hover="dropdown" data-animations="fadeIn">General Information
-                <span class="caret"></span></button></a>
-                <ul class="dropdown-menu">
-                  <li><a href="General_info.html#introduction" class="page-scroll">INTRODUCTION</a></li>
-                  <!-- <li><a href="General_info.html#important_dates" class="page-scroll">IMPORTANT DATES</a></li> -->
-                  <!-- <li><a href="General_info.html#implinks" class="page-scroll">IMPORTANT LINKS</a></li> -->
-                  <li><a href="General_info.html#things-to-bring" class="page-scroll">WHAT TO BRING</a></li>
-                  <li><a href="General_info.html#To-do" class="page-scroll">TO-DO LIST</a></li>
-                  <li><a href="General_info.html#scholarship" class="page-scroll">SCHOLARSHIP</a></li>
-                  <li><a href="General_info.html#English-parents-letter" class="page-scroll">LETTER TO PARENTS</a></li>
-                  <li><a href="General_info.html#Hindi-parents-letter" class="page-scroll">अभिभावक को पत्र</a></li>
-                </ul>
-              </div>
-            </li>
+            
             <li>
               <div class="dropdown">
                 <a class="btn btn-primary page-scroll dropdown-toggle" type="button" href="Campus_life.html" data-hover="dropdown" data-animations="fadeIn">Campus Life
@@ -211,6 +212,12 @@
               </div> -->
             <div class="col-md-4 col-md-offset-1">
               <a href="academics.html#portfolio" class="page-scroll btn btn-xl">Departments</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="scroll_down">
+              <div class="text">SCROLL DOWN</div>
+              <div class="arrow">&#9660;</div>
             </div>
           </div>
           <!-- <div class="row">
@@ -430,6 +437,9 @@
               </li>
               <li>
                 <b>JEE (Advanced) official website</b> - ​<a  href="https://www.jeeadv.ac.in/">https://www.jeeadv.ac.in/</a>
+              </li>
+              <li>
+                <b>Gender Cell website</b> - ​<a  href="http://www.gendercell.iitb.ac.in/">http://www.gendercell.iitb.ac.in/</a>
               </li>
               <li>
                 <b>SC/ST students cell</b> - ​<a  href="http://www.iitb.ac.in/hi/scst-students-cell30">http://www.iitb.ac.in/hi/scst-students-cell30</a>
@@ -697,6 +707,24 @@
         Have some queries? Check out <a href="/anyquestions.html">this</a> page.
       </div>
     </footer>
+
+    <style type="text/css">
+      .scroll_down{
+        text-align: right;
+      }
+      .arrow{
+        text-shadow: 1px 1px #a08686cf;
+        font-size: 2em;
+        margin-right: 62px;
+        user-select: none;
+      }
+      .text{
+        font-size: 1.5em;
+        text-shadow: 1px 1px #be9a9adb;
+        user-select: none;
+      }
+    </style>
+
     <!-- jQuery -->
     <script src="static/vendor/jquery/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
