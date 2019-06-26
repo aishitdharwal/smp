@@ -15,8 +15,9 @@
 
 
     <meta charset="utf-8"/>
-    <meta property="fb:app_id" content="168000230712068" />
-    <meta property="fb:admins" content="digi147" />
+    <meta property="fb:app_id" content="2199544616830034" />
+    <!-- <meta property="fb:admins" content="aishit.dharwal.7" /> -->
+    <meta property="fb:admins" content="mentor.smp" />
 
     <meta property="og:image" content="http://smp.iitb.ac.in/static/img/thumbnail/thumbnail.png" />
     <meta property="og:image:type" content="image/png"/>
@@ -53,16 +54,28 @@
 </head>
 
 <body id="page-top" class="index">
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '2199544616830034',
+        xfbml      : true,
+        version    : 'v3.3'
+      });
+      FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0&appId=2199544616830034";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
   <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  console.log(js.id);
-  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0&appId=168000230712068';
-  fjs.parentNode.insertBefore(js, fjs);
-  console.log(fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3"></script>
+  
 
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -297,8 +310,8 @@
                 </div>
             </div>
         </section>
-
-        <section id="fb">
+        <div class="fb-comments" data-href="http://www.smp.iitb.ac.in/fbtest.html" data-width="100%" data-numposts="10"></div>
+        <!-- <section id="fb">
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
@@ -311,7 +324,7 @@
                   </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
     <footer>
         <div class="container">
