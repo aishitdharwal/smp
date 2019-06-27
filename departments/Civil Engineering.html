@@ -7,6 +7,12 @@
 -->
 <html>
 	<head>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script>
+               $(document).ready(function(){
+                   $("#test").load("civil.html");
+               });
+          </script>
 		<title>Civil Engineering</title>
 		<meta charset="utf-8" />
         <meta property="fb:app_id" content="168000230712068" />
@@ -28,28 +34,10 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
-						<header >
-						<!-- One -->
-							<section class="banner style5 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-left">
-								<div class="content" >
-									<h1 class="intro-heading" >Civil Engineering</h1>
-									</br>
-									<ul class="actions vertical">
-										<li><a href="../academics.html#portfolio" class="button special big wide smooth-scroll-middle">Back to Departments</a></li>
-									</ul>
-								</div>
-								<!-- <div class="image">
-									<img src="images/banner.jpg" alt="" />
-								</div> -->
-							</section>
-						</header>
-
-
-
-
+						<div id="test"></div>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important">
 									<h2>Overview</h2>
 									<div>
 										<p>Civil Engineering is the field that reaches out far more than what you imagine it to be. A Civil Engineer is responsible for the design, construction and management of buildings, bridges, highways, airports, tunnels, water supply networks, wastewater treatment, transportation in a region and many more things which play an important role in the development of a place and add on to what a place really looks like. Nowadays, Civil Engineering has also found its importance in various fields that were never thought to have its application, like Structural analysis of human body, organs and cells, transportation of RBCs/WBCs in blood vessels etc.
@@ -224,5 +212,13 @@
 					});
 
 			</script>
+               <style type="text/css">
+               header{
+                    height: 100vh !important;
+               }
+               p{
+                    font-size: 2rem !important;
+               }
+          </style>
 	</body>
 </html>

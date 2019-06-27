@@ -7,6 +7,13 @@
 -->
 <html>
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+			$(document).ready(function(){
+			    $("#test").load("idc.html");
+			});
+		</script>
+
 		<title>Industrial Design Centre</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,28 +35,10 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
-						<header >
-						<!-- One -->
-							<section class="banner style5 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-left">
-								<div class="content" >
-									<h1 class="intro-heading" >Industrial Design Centre</h1>
-									</br>
-									<ul class="actions vertical">
-										<li><a href="../academics.html#portfolio" class="button special big wide smooth-scroll-middle">Back to Departments</a></li>
-									</ul>
-								</div>
-								<!-- <div class="image">
-									<img src="images/banner.jpg" alt="" />
-								</div> -->
-							</section>
-						</header>
-
-
-
-
+						<div id="test"></div>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important">
 									<h2>What is IDC all about?</h2>
 									<div>
 										<p>IDC, Industrial Design Center, one of the first design schools in the country is aimed at addressing the unmet needs of an under-privileged population. Design is a field that requires both creativity and logic, to create unique solutions.
@@ -140,5 +129,13 @@
 					});
 
 			</script>
+			<style type="text/css">
+			header{
+				height: 100vh !important;
+			}
+			p{
+				font-size: 2rem !important;
+			}
+			</style>
 	</body>
 </html>

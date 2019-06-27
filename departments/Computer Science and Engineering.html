@@ -7,6 +7,13 @@
 -->
 <html>
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			    $("#test").load("cs.html");
+			});
+		</script>
+
 		<title>Computer Science and Engineering</title>
 		<meta charset="utf-8" />
 		<meta property="fb:app_id" content="168000230712068" />
@@ -27,28 +34,10 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
-						<header >
-						<!-- One -->
-							<section class="banner style5 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-left">
-								<div class="content" >
-									<h1 class="intro-heading" >Computer Science and Engineering</h1>
-									</br>
-									<ul class="actions vertical">
-										<li><a href="../academics.html#portfolio" class="button special big wide smooth-scroll-middle">Back to Departments</a></li>
-									</ul>
-								</div>
-								<!-- <div class="image">
-									<img src="images/banner.jpg" alt="" />
-								</div> -->
-							</section>
-						</header>
-
-
-
-
-
+				<div id="test"></div>
+						
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important">
 									<h2>Introduction</h2>
 									<div>
 										<blockquote>Computer science is not really about computers -- and it's not about computers in the same sense thatphysics is not really about particle accelerators, and biology is not about microscopes and Petridishes...and geometry isn't really about using surveying instruments. Now the reason that we think computer science is about computers is pretty much the same reason that the Egyptians thought geometry was about surveying instruments: when some field is just getting started and you don't really
@@ -64,7 +53,7 @@ practical techniques for their implementation and application. And then, thereâ€
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important">
 									<h2>What is CSE Engineering all about?</h2>
 									<div>
 										For things that are indispensable to most of us, computers and the Internet are surprisingly recent. It is
@@ -200,7 +189,7 @@ involves only literature survey.
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important">
 									<h2>What kind of courses do you have to do?</h2>
 									<div>
 										We start off with an introductory course which teaches programming in C++. This does not assume any
@@ -224,7 +213,7 @@ Learning, Cloud Computing etc. The list keeps going.
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important">
 									<h2>Core specializations</h2>
 									<div>
 										<br><br>
@@ -300,7 +289,7 @@ in which it handles data and develop an application for the same.
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important">
 									<h2>What after you are a CS Engineer?</h2>
 									<div>
 										<br><br>
@@ -319,7 +308,7 @@ chances of securing admission to reputed institutions for your higher studies.
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important">
 									<h2>Additional information</h2>
 									<div>
 										<br><br>
@@ -356,7 +345,7 @@ Google just made public, rest assured that help will always be given at IIT-B to
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important">
 									<h2>Department alumni</h2>
 									<div>
 										<br>
@@ -513,5 +502,17 @@ Google just made public, rest assured that help will always be given at IIT-B to
 					});
 
 			</script>
+			<style type="text/css">
+			header{
+				height: 100vh !important;
+			}
+			p{
+				font-size: 2rem !important;
+			}
+			blockquote{
+				text-align: center !important;
+				padding: 5%;
+			}
+			</style>
 	</body>
 </html>

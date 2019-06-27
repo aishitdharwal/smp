@@ -7,10 +7,16 @@
 -->
 <html>
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			    $("#test").load("chem.html");
+			});
+		</script>
 		<title>Chemical Engineering</title>
 		<meta charset="utf-8" />
-		<meta property="fb:app_id" content="168000230712068" />
-    	<meta property="fb:admins" content="digi147" />
+		<!-- <meta property="fb:app_id" content="168000230712068" />
+    	<meta property="fb:admins" content="digi147" /> -->
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="static/department/assets/css/main.css" />
 		<link rel="stylesheet" href="static/department/assets/css/vegas.min.css">
@@ -27,28 +33,10 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
-						<header >
-						<!-- One -->
-							<section class="banner style5 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-left">
-								<div class="content" >
-									<h1 class="intro-heading" >Chemical Engineering</h1>
-									</br>
-									<ul class="actions vertical">
-										<li><a href="../academics.html#portfolio" class="button special big wide smooth-scroll-middle">Back to Departments</a></li>
-									</ul>
-								</div>
-								<!-- <div class="image">
-									<img src="images/banner.jpg" alt="" />
-								</div> -->
-							</section>
-						</header>
-
-
-
-
-
+				<div id="test"></div>
+						
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="font-family: Source Sans Pro !important; margin: 0 10% !important; max-width: 100%;">
 									<h2>Introduction</h2>
 									<div>
 										Chemical engineers deal with the transformation of raw materials into useful products that have an impact on virtually every facet of human life. Many of these products are commodities obtained from oil and natural gas, such as soaps, detergents, cosmetics, liquid and gaseous fuels, synthetic fibers and plastics. Chemical engineers work out the processes to make all these products, while also helping to manage the world's resources, protect the environment and ensure health and safety standards are met.
@@ -59,7 +47,7 @@
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="font-family: Source Sans Pro !important; margin: 0 10% !important; max-width: 100%;">
 									<h2>Difference between a Chemist and a Chemical Engineer</h2>
 									<div>
 										Chemical Engineering is NOT equal to chemistry. Yes, we do study chemistry, and yes, the engineering is applied so that the chemistry that chemists (not engineers) come up with can be transformed into large scale manufacturing.
@@ -72,7 +60,7 @@ As Prof. M.S. Ananth rightly said: A chemical engineer is someone who knows enou
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="font-family: Source Sans Pro !important; margin: 0 10% !important; max-width: 100%;">
 									<h2>What is Chemical Engineering all about?</h2>
 									<div>
 										Chemical Engineering involves the scaling up the reactions performed in a chemistry laboratory to produce the desired chemical on an industrial scale. However, this requires an understanding of principles of micro, meso and macro scale processes which are dealt with while doing the courses.
@@ -109,7 +97,7 @@ This is recognition of a small research/developmental effort, successfully compl
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="font-family: Source Sans Pro !important; margin: 0 10% !important; max-width: 100%;">
 									<h2>What kind of courses do you have to do?</h2>
 									<div>
 										Chemical engineering has courses that cover almost all genres of engineering. It is basically industrial engineering. So, you study everything that you would be required to apply in an industry. Traditionally, the study of Chemical Engineering majorly relies on the 5 pillars of Thermodynamics, Heat and Mass Transfer, Fluid Mechanics, Chemical Reaction Engineering and Process Control. In your second third and third years, you would basically encounter a few courses from each subfield. The fourth year involves incorporating all of these disciplines and designing chemical processes. The rest of the coursework involves electives. Through these electives, you can choose to study advanced topics in any of the subfields mentioned.
@@ -122,7 +110,7 @@ This is recognition of a small research/developmental effort, successfully compl
 
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="font-family: Source Sans Pro !important; margin: 0 10% !important; max-width: 100%;">
 									<h2>Core specializations</h2>
 									<div>
 										Let us walk through the core specializations through a story.
@@ -167,7 +155,7 @@ Now the product P is obtained, but it needs to be converted to the appropriate f
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="font-family: Source Sans Pro !important; margin: 0 10% !important; max-width: 100%;">
 									<h2>What after you are a Chemical Engineer?</h2>
 									<div>
 										There is a lot research going on in the fields mentioned above. The curriculum allows students to explore the areas through electives and projects. Quite a lot of students who are interested in research go for MS/PhD in their area of interest at prestigious universities.
@@ -180,7 +168,7 @@ The core sector involves FMCGs, PSUs, refineries, etc. Therefore, those who wish
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="font-family: Source Sans Pro !important; margin: 0 10% !important; max-width: 100%;">
 									<h2>Department alumni</h2>
 									<div>
 										<br>
@@ -319,5 +307,16 @@ The core sector involves FMCGs, PSUs, refineries, etc. Therefore, those who wish
 					});
 
 			</script>
+			<style type="text/css">
+			header{
+				height: 100vh !important;
+			}
+			div{
+				font-size: 2rem !important;
+			}
+			p{
+				font-size: 2rem !important;
+			}
+		</style>
 	</body>
 </html>

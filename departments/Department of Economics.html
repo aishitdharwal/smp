@@ -7,6 +7,13 @@
 -->
 <html>
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			    $("#test").load("eco.html");
+			});
+		</script>
+
 		<title>Economics</title>
 		<meta charset="utf-8" />
 		<meta property="fb:app_id" content="168000230712068" />
@@ -28,28 +35,10 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
-						<header >
-						<!-- One -->
-							<section class="banner style5 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-left">
-								<div class="content" >
-									<h1 class="intro-heading" >Economics</h1>
-									</br>
-									<ul class="actions vertical">
-										<li><a href="../academics.html#portfolio" class="button special big wide smooth-scroll-middle">Back to Departments</a></li>
-									</ul>
-								</div>
-								<!-- <div class="image">
-									<img src="images/banner.jpg" alt="" />
-								</div> -->
-							</section>
-						</header>
-
-
-
-
+				<div id="test"></div>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important">
 									<h2>Introduction</h2>
 									<div>
 										The vision of the department is to create a unique brand of students who will be equipped to balance
@@ -63,7 +52,7 @@ professionals with inter and multi-disciplinary skills for applied economic anal
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important">
 									<h2>What is Economics all about?</h2>
 									<div>
 										The programme aims to create a unique brand of students who will be equipped with the temper of ethically
@@ -77,7 +66,7 @@ well-trained professionals with inter and multi-disciplinary skills for Applied 
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important">
 									<h2>What kind of courses do you have to do?</h2>
 									<div>
 										In the first year of the programme, the courses would be common for all new entrants of IIT Bombay.
@@ -102,7 +91,7 @@ year, as is the case in the Institute.
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important">
 									<h2>Core specializations</h2>
 									<div>
 										Some of the elective courses that are offered to the students of B.S Economics
@@ -224,5 +213,13 @@ new courses for approval.
 					});
 
 			</script>
+			<style type="text/css">
+			header{
+				height: 100vh !important;
+			}
+			p{
+				font-size: 2rem !important;
+			}
+			</style>
 	</body>
 </html>

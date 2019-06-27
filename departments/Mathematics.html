@@ -7,6 +7,13 @@
 -->
 <html>
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+			$(document).ready(function(){
+			    $("#test").load("math.html");
+			});
+		</script>
+
 		<title>Mathematics</title>
 		<meta charset="utf-8" />
 		<meta property="fb:app_id" content="168000230712068" />
@@ -28,28 +35,10 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
-						<header >
-						<!-- One -->
-							<section class="banner style5 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-left">
-								<div class="content" >
-									<h1 class="intro-heading" font-color="#edf0f4">Mathematics</h1>
-									</br>
-									<ul class="actions vertical">
-										<li><a href="../academics.html#portfolio" class="button special big wide smooth-scroll-middle">Back to Departments</a></li>
-									</ul>
-								</div>
-								<!-- <div class="image">
-									<img src="images/banner.jpg" alt="" />
-								</div> -->
-							</section>
-						</header>
-
-
-
-
+				<div id="test"></div>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important">
 									<h2>Introduction</h2>
 									<div>
 The mission of the undergraduate program in Mathematics is to provide students with a broad understanding of mathematics encompassing logical reasoning, generalization, abstraction, and formal proof. Courses in the program teach students to create, analyze, and interpret mathematical models and to communicate sound arguments based on mathematical reasoning and careful data analysis.<br><br>
@@ -67,7 +56,7 @@ As undergraduates, the students are expected to demonstrate:
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important">
 									<h2>What is Mathematics Bachelor’s degree all about?</h2>
 									<div>
 										Mathematics is one of the oldest fields of human inquiry and integral to our culture and heritage. Its grand questions have been motivated as much by our fascination with its inherent beauty and complexity as by the practical considerations of architecture, science, and technology. In the modern world, mathematics thrives in its central role as the language of traditional science, while reaching further into the realms of engineering, finance, and social sciences.<br><br>
@@ -187,7 +176,7 @@ involves only literature survey.
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important">
 									<h2>What kind of courses do you have to do?</h2>
 									<div>
 										In the first year of the programme, the courses would be common for all new entrants of IIT Bombay.The four-year programme in Mathematics aims to build a foundation in initial semesters while encouraging students to pursue more targeted interests in the second half of the programme.<br><br>
@@ -203,7 +192,7 @@ involves only literature survey.
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important">
 									<h2>Admission Process</h2>
 									<div>
 										Entry to BS programme is through any one of the following two modes:
@@ -326,5 +315,13 @@ involves only literature survey.
 					});
 
 			</script>
+			<style type="text/css">
+			header{
+				height: 100vh !important;
+			}
+			p{
+				font-size: 2rem !important;
+			}
+			</style>
 	</body>
 </html>

@@ -7,6 +7,13 @@
 -->
 <html>
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+			$(document).ready(function(){
+			    $("#test").load("env.html");
+			});
+		</script>
+
 		<title>Environmental Sciences</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,28 +35,11 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
-						<header >
-						<!-- One -->
-							<section class="banner style5 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-left">
-								<div class="content" >
-									<h1 class="intro-heading" >Environmental Sciences</h1>
-									</br>
-									<ul class="actions vertical">
-										<li><a href="../academics.html#portfolio" class="button special big wide smooth-scroll-middle">Back to Departments</a></li>
-									</ul>
-								</div>
-								<!-- <div class="image">
-									<img src="images/banner.jpg" alt="" />
-								</div> -->
-							</section>
-						</header>
-
-
-
-
+				<div id="test"></div>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important"
+>
 									<h2>Introduction</h2>
 									<div>Our society’s influence on the natural world’s ecosystems and resources has never been more prominent or problematic than it is today. In order to better understand and address environmental challenges, environmental scientists and engineers provide technical solutions and advance innovations in environmental measurements, modeling, and control through the application of scientific and engineering principles.
 									</div>
@@ -59,7 +49,8 @@
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important"
+>
 									<h2>What is Environmental Sciences Progamme is all about ?</h2>
 									<div>
 										Dual degree in Environmental Science and Engineering is a programme with a goal of understanding, predicting and responding to human-induced environmental change. There is a need to address environmental issues such as global warming, stratospheric ozone depletion, or local and regional air and water pollution requires perspectives from a diverse set of scientific disciplines including atmospheric physics and chemistry, oceanography, glaciology, hydrology, geophysics, ecology, and biogeochemistry.<br><br>  
@@ -71,7 +62,8 @@
 							</section>
 
 							<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
-								<div class="content">
+								<div class="content" style="margin:0 10% !important; max-width: 100% !important; font-family: Source Sans Pro !important; font-size: 2rem !important"
+>
 									<h2>What kind of courses do you have to do?</h2>
 									<div>
 										In the first year of the programme, the courses would be common for all new entrants of IIT Bombay apart from one department introductory course (DIC). The DIC for ESE Dual Degree students would be on Water Quality Management.Undergraduate students will be trained to think about environmental processes in an integrated fashion, preparing them to manage the environmental challenges we face.<br><br>
@@ -194,5 +186,13 @@
 					});
 
 			</script>
+			<style type="text/css">
+			header{
+				height: 100vh !important;
+			}
+			p{
+				font-size: 2rem !important;
+			}
+			</style>
 	</body>
 </html>
