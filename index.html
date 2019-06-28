@@ -184,6 +184,11 @@
     <header>
       <div class="container">
         <div class="intro-text">
+        	<div class="row boxe">
+        		<div class="box">
+        			Contact information for prospective women students: <a href="mailto:jeew.helpdesk@iitb.ac.in" style="color: #fed136;">jeew.helpdesk@iitb.ac.in</a>
+        		</div>        		
+        	</div>
           <div class="row">
             <div class="intro-heading col-md-10 col-md-offset-1">Welcome To IIT Bombay!</div>
           </div>
@@ -202,6 +207,9 @@
               <p align="left">This website has been made to introduce incoming freshers to the life at IIT Bombay.
                 <br>Explore this website and use it to make an informed choice about your college and department.
                 <br>Please feel free to post any query on the <a href="/anyquestions.html#fb" style="color: #c0bcef;">Query Portal</a>. Have fun!
+              </p>
+              <p class="mobbox">
+              	Contact information for prospective women students: <a href="mailto:jeew.helpdesk@iitb.ac.in" style="color: #c0bcef;">jeew.helpdesk@iitb.ac.in</a>
               </p>
             </div>
           </div>
@@ -773,5 +781,34 @@
       ga('create', 'UA-100767396-1', 'auto');
       ga('send', 'pageview');
     </script>
+    <style type="text/css">
+    	@media(min-width: 768px){
+	    	.boxe{
+			    position: absolute;
+				top: 27vh;
+				right: 5vw;
+	    	}
+	    	.box{
+	    		box-shadow: 0 10px 6px -6px #77A;
+			    height: 20vh;
+			    width: 20vw;
+			    border: 2px white solid;
+			    float: right;
+			    text-align: center;
+			    padding: 10% 5%;
+	    	}
+	    	.mobbox{
+	    		display: none;
+	    	}
+    	}
+    	@media(max-width: 768px){
+    		.boxe{
+    			display: none;
+    		}
+    		.box{
+    			display: none;
+    		}
+    	}
+    </style>
   </body>
 </html>
