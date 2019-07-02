@@ -223,8 +223,8 @@
               <a href="academics.html#portfolio" class="page-scroll btn btn-xl">Departments</a>
             </div>
           </div>
-          <div class="row">
-            <div class="arrow" align="center" style="margin-top: -10px;">
+          <div class="row" style="margin-top: 10px; margin-bottom: 10px;">
+            <div class="arrow" align="center">
               <a href="#important_dates">
                 <i style="color: white;font-size: 50px" class="fa fa-angle-double-down" aria-hidden="true">
                 </i>
@@ -729,12 +729,12 @@
       .scroll_down{
         text-align: right;
       }
-      .arrow{
+      /*.arrow{
         text-shadow: 1px 1px #a08686cf;
         font-size: 2em;
         margin-right: 62px;
         user-select: none;
-      }
+      }*/
       .text{
         font-size: 1.5em;
         text-shadow: 1px 1px #be9a9adb;
@@ -813,6 +813,11 @@
     	}
       html{
         scroll-behavior: smooth;
+      }
+      @media (min-width: 768px){
+        header .intro-text .intro-heading{
+          font-size: 55px !important;
+        }
       }
     </style>
   </body>
