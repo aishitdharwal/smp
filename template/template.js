@@ -1,0 +1,9 @@
+$(document).ready(function(){
+	$(".open").click(function(){
+		$(".menu").css("bottom","0");
+		$(".col").css("bottom","0");
+	});
+	$(".Close").click(function(){
+		$(".menu").css("bottom","80vh");
+	});
+});
