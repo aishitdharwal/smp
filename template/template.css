@@ -112,4 +112,7 @@
 	.col2{
 		font-size: 0.9em;
 	}
+	.menu_list{
+		left: -15%;
+	}
 }
