@@ -8,4 +8,7 @@ $(document).ready(function(){
 		$(".menu").css("bottom","80vh");
 		$(".menu_list li").fadeOut();
 	});
+	$(".feedback_close").click(function(){
+		$(".feedback").css("display","none");
+	});
 });

@@ -28,8 +28,12 @@ html{
     width: calc(30vw - 25px);;
 	background-color: #291e1e;
 }
+.feedback_heading{
+	font-size: 1.2em;
+}
 .feedback_subheading{
-	font-size: 0.8em;
+	font-size: 1em;
+	margin-top: 10px;
 }
 .home{
   background-color: black;
@@ -139,6 +143,9 @@ html{
 	}
 	.feedback_body{
 		width: 175px;
+	}
+	.feedback_subheading{
+		font-size: .8em;
 	}
 	.head{
 		font-size: 1.3em;
