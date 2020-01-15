@@ -5,8 +5,8 @@ html{
 	position: fixed;
     bottom: 3vh;
     right: 1vw;
-    height: 30vh;
-    width: 20vw;
+    height: 40vh;
+    width: 30vw;
     background-color: transparent;
     color: white;
     z-index: 1;
@@ -17,15 +17,15 @@ html{
 	left: 0;
 	top: 0;
 	height: 4vh;
-	width: 2vw;
+	width: 25px;
 	background-color: #291e1e;
 }
 .feedback_body{
 	position: absolute;
 	right: 0;
 	bottom: 0;
-	height: 30vh;
-	width: 18vw;
+    height: inherit;
+    width: calc(30vw - 25px);;
 	background-color: #291e1e;
 }
 .feedback_subheading{
