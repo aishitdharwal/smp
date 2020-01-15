@@ -147,6 +147,9 @@ html{
 	.feedback_subheading{
 		font-size: .8em;
 	}
+	.menu1 .row{
+		display: none;
+	}
 	.head{
 		font-size: 1.3em;
 	}
