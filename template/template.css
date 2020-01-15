@@ -1,3 +1,36 @@
+html{
+	scroll-behavior: smooth;
+}
+.feedback{
+	position: fixed;
+    bottom: 3vh;
+    right: 1vw;
+    height: 30vh;
+    width: 20vw;
+    background-color: transparent;
+    color: white;
+    z-index: 1;
+    text-align: center;
+}
+.feedback_close{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 4vh;
+	width: 2vw;
+	background-color: #291e1e;
+}
+.feedback_body{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 30vh;
+	width: 18vw;
+	background-color: #291e1e;
+}
+.feedback_subheading{
+	font-size: 0.8em;
+}
 .home{
   background-color: black;
   height: 80vh;
@@ -10,10 +43,10 @@
 	bottom: 80vh;
 	position: absolute;
 	width: 50%;
-	transition: 1s;
+	transition: .1s;
 	z-index: 2;
 	font-family: 'Josefin Sans', sans-serif;
-	transition-timing-function: cubic-bezier(.81,-0.37,.32,1.38);
+	transition-timing-function: cubic-bezier(.8,.01,.29,.97);
 }
 .menu1{
 	transition-duration: 2s;
@@ -62,8 +95,10 @@
 	height: auto;
 }
 .parallax-window {
-	min-height: 100vh;
+	min-height: 110vh;
 	background: transparent;
+	top: -2vh;
+    position: relative;
 }
 .head{
 	font-size: 2em;
