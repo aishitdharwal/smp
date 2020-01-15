@@ -134,6 +134,12 @@ html{
 	transform: translate(-50%,-50%);
 }
 @media(max-width: 853px){
+	.feedback{
+		width: 200px;
+	}
+	.feedback_body{
+		width: 175px;
+	}
 	.head{
 		font-size: 1.3em;
 	}
