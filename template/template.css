@@ -137,6 +137,53 @@ html{
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
+.next{
+	width: 100%;
+}
+.card{
+	padding: 2% 5%;
+    position: relative;
+    width: 75%;
+    height: 70%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    background-color: #676793;
+}
+.card_head{
+	width: 100%;
+	margin:10px;
+	text-align: center;
+}
+.card_body{
+	width: 100%;
+	text-align: center;
+}
+.read_more{
+	border: white 2px solid;
+	width: fit-content;
+	padding: 1%;
+	position: absolute;
+	right: 0;
+	margin-right: 5%;
+	background-color: #22374d;
+	color: white;
+}
+.read_more_modal{
+	border: 2px white solid;
+	position: absolute;
+	height: 40vh;
+	background-color: yellow;
+	width: 90vw;
+	top: 50%;
+	left: 150vw;
+	transform: translate(-50%,-50%);
+	transition: 1s;
+}
+.modal_text{
+	height: 100%;
+	overflow: auto;
+}
 @media(max-width: 853px){
 	.feedback{
 		width: 200px;

@@ -11,4 +11,7 @@ $(document).ready(function(){
 	$(".feedback_close").click(function(){
 		$(".feedback").css("display","none");
 	});
+	$(".read_more").click(function(){
+		$(".read_more_modal").css("left","50%");
+	});
 });
