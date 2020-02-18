@@ -14,4 +14,7 @@ $(document).ready(function(){
 	$(".read_more").click(function(){
 		$(".read_more_modal").css("left","50%");
 	});
+	$(".read_more_modal_close").click(function(){
+		$(".read_more_modal").css("left","-100vw");
+	});
 });
