@@ -1,0 +1,36 @@
+body{
+	margin:0;
+}
+.top_picture{
+	height: 40vh;
+	background: url(circle.png) no-repeat fixed top;
+}
+.heading{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: xx-large;
+	padding: 5%;
+}
+.body{
+	position: absolute;
+    margin-top: 100px;
+}
+.text{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 50%;
+	margin-top: 10%; 
+}
+.footer{
+	background-color: #0c1a1e;
+	height: 50vh;
+	position: relative;
+	width: 100%;
+	top: 100vh;
+	z-index: 2;
+	color: #fed136;
+}
