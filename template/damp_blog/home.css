@@ -15,7 +15,8 @@ body{
 }
 .body{
 	position: absolute;
-    margin-top: 100px;
+    margin-top: 1%;
+    height: 100%;
 }
 .text{
 	position: relative;
@@ -23,7 +24,8 @@ body{
 	left: 50%;
 	transform: translate(-50%,-50%);
 	width: 50%;
-	margin-top: 10%; 
+	margin-top: 1%;
+	height: 100%;
 }
 .footer{
 	background-color: #0c1a1e;
@@ -33,4 +35,11 @@ body{
 	top: 100vh;
 	z-index: 2;
 	color: #fed136;
+}
+a:hover{
+	background-color: #fed136;
+	color: #333;
+}
+.sidenav a{
+	color: #f2f2f2 !important;
 }
